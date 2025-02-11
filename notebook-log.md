@@ -37,6 +37,12 @@ I ran this script on C. thermocellum PPi-PFK (positive control/target sequence),
 
 As of Feb 11th, 2025, I am taking note of more organisms that are referred to in literature to utilize PPi-PFK, and creating a spreadsheet for a pHMMR run to collect more homologs. 
 
+The UniProt KEGG Orthology numbers I have stored are: 
+- K00850
+- K16370
+- K21071
+- K24182
 
+These are all links to the amino acid sequences
 
 
