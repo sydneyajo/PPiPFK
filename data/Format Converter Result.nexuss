@@ -1,0 +1,12 @@
+<p><span style="font-weight: 400;">We encountered a problem with your input. Please consider these tips when resubmitting your job:</span></p>
+<ul>
+<li style="font-weight: 400;margin: 6px 0;"><strong>Input size:</strong><span style="font-weight: 400;"> Limited to 20 Mb. Please contact us if input size limitations are problematic.&nbsp;</span></li>
+<li style="font-weight: 400;margin: 6px 0;"><strong>File format:</strong><span style="font-weight: 400;"> Input must be in the required format for the particular tool or field. For example, a form field that requires a csv file will not accept a DNA sequence file.</span></li>
+<li style="font-weight: 400;margin: 6px 0;"><strong>Characters and symbols:</strong><span style="font-weight: 400;"> Limit sequence names and all text to letters, numbers, and underscores. Even common punctuation characters (e.g. a comma, dash, or backslash) can cause errors for certain tools. Accented characters, symbols, unusual text encoding, or unusual line break characters may also produce this message.</span></li>
+<li style="font-weight: 400;margin: 6px 0;"><strong>Expired page:</strong><span style="font-weight: 400;"> If you are arriving from a link in an emailed result, your results page may have expired.</span></li>
+</ul>
+ 
+<p><span style="font-weight: 400;">If you still get an error after considering the tips above, please email us a description of the problem and your input file. We will help you get your results, and you will help us improve our web tools!</span></p>
+<p><span style="font-weight: 400; line-height: 3">Thank you!</span></p>
+<p><span style="font-weight: 400; line-height: 0">The LANL HIV database team,</span></p>
+<p><span style="font-weight: 400; line-height: 0">seq-info@lanl.gov</span></p>

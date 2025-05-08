@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><beast beautitemplate='Standard' beautistatus='' namespace="beast.core:beast.evolution.alignment:beast.evolution.tree.coalescent:beast.core.util:beast.evolution.nuc:beast.evolution.operators:beast.evolution.sitemodel:beast.evolution.substitutionmodel:beast.base.evolution.alignment:beast.pkgmgmt:beast.base.core:beast.base.inference:beast.base.evolution.tree.coalescent:beast.pkgmgmt:beast.base.core:beast.base.inference.util:beast.evolution.nuc:beast.base.evolution.operator:beast.base.inference.operator:beast.base.evolution.sitemodel:beast.base.evolution.substitutionmodel:beast.base.evolution.likelihood" required="BEAST.base v2.7.7" version="2.7">
+
+    <data
+id="output-for-Bayes"
+spec="Alignment"
+dataType="aminoacid"
+name="alignment">
+        <sequence id="seq_sp_E0RTD9_PFKA_SPITD" spec="Sequence" taxon="sp_E0RTD9_PFKA_SPITD" totalcount="20" value="-----------------------------------------------------------------------MKRPATRTFGILT-SGGDCPGLNAAIRGVTKAAYWRY-GMSIIGISHGYRGLIEGDA------RLLHPRD----------FDGILTRGGTILG-TSREKPFKPDPGEKDSEAGSRKVEAIIENYHKLHLDCLVVLGGNGTHKTAYLLQQ-----AG-LNVIGLPKTIDNDIWGTDVTFGFHSAVDIATEAIDRLHSTAHAHNR--VMVIEVMGHKAGWLALYAGIAG----GGDIILIPEIP--------YDLAHIVHHLQTRQQRGKEFSIVVVAEGALSREESLMSKEERKKRRKKNRFPTKGYEVAHLIQE-------A-TGMETRVTVLGYLQRGGT--PSPYDRLLATRFGTAAAELLYRGDYGKMVALR-------DGEVVAIPLGEVAEKLKT----------VPPDHPLIDTARAVGTCFGDGV------------------"/>
+        <sequence id="seq_sp_O51669_PFKA_BORBU" spec="Sequence" taxon="sp_O51669_PFKA_BORBU" totalcount="20" value="MYRIKNENLDFKIDSLGECKQNNPLIDFYASEGSSHFVNEKNKIKFSVYRNEDKGDRYEDVLLEKAGPREKIYFVPRHVKAAITTCGGLCPGFNDVIRSIVRTLWKIYGVRNIYGVKFGYQGLLPESN------SPFINLNP-------DVVDDINKFGGTILG--SSRGGIKP--------------VEIVDTLERMNINMIFNIGGDGTQKGSLLIAEEIEKRNLKIAVVGIPKTVDNDFMFVQKSFGFETAVEQAVAAVAGAHFEANSAYNG-IGLVKVMGRDSGFIAAHTALSS---NDVNFCLIPELDFDIEGPNGFLVHLERRLLEKESLEEIPHAVILIAEGAGQKYFD-----HFPKKKDDSGNLLYEDIGLYIKDKITEYFKAKNIQFTLKYIDPSYIIRSSP--ANASDSLYCARLGSNAVHAAMAGKTKMLISLW-------STKFVHIPIKMAVIDRNKVN-----PNGSFWRDVLSSTGQPISMKN----------------------"/>
+        <sequence id="seq_sp_P06999_PFKB_ECOLI" spec="Sequence" taxon="sp_P06999_PFKB_ECOLI" totalcount="20" value="------------------------------------------------------------------------------MVRIYTLTLAPSLDSATITPQIYPEGKLR---CTAPVFEPGGGGINVARA------IAHLGGS----------ATAIFPAGGATGEHLVSLLADEN----------VPVATVEAKDWTRQNLHVHVEASGEQYRFVMPGAALN------EDEFRQLEEQVLEIESGAILVISGSLPPGVKLEKLTQLISAAQKQGIR--CIVDSSGE-----ALSAALAI----GNIELVKPNQK---------ELSALVNRELTQPDDVRKAAQEIVNSGKAKRVVVS------------------LGPQGALGVD-----------SENCIQVVPPPVKSQS-----TVGAGDSMVGAMTLKLAENASLEEMVRFG-------VAAGSAATLNQGTRLCSH-----------DDTQKIYAYLSR---------------------------"/>
+        <sequence id="seq_sp_P72830_PFKA1_SYNY3" spec="Sequence" taxon="sp_P72830_PFKA1_SYNY3" totalcount="20" value="-----------------------------------------------------------------------MGE--IKRIGILT-SGGDCAGLNAVIRSVVHHAIGTY-GWEVIGIQEATQGLMENPS-----KAIALHRD---------NIDHLLMMGGTFLGTTNKGNPFAF---PMADGTVRDRTEDIIAGYRQLGLDALIGIGGDGSLAILRRIAQ-----QGGINLVGIPKTIDNDVGATEISIGFDTATNIATEALDRLHFTAASHNR--VMVLEVMGRDAGHIALAAGIGG----GADIILIPEIP--------YRIQSVCNKIRQRQAEGKNFCLVMVSEAVRTE------LGDQVKQIQQFGEDRYGGIGKYIAEQ----IAQR-TGAETRVTVLGHIQRGGI--PSPFDRLLGSVFGVAAVDLIAEGKFDHMVAWR-------NRQTISVPIEEAIQTYQT----------VQLDGTLVKTARGLGICLGND-------------------"/>
+        <sequence id="seq_sp_Q55988_PFKA2_SYNY3" spec="Sequence" taxon="sp_Q55988_PFKA2_SYNY3" totalcount="20" value="-----------------------------------------------------------------------MG---TKRIGILT-SGGDCPGLNAVIRAVVK-ASALK-GWEVYGIPYGTDGFVEVAHGKYQAEDLLLTKHGYALPGMLKGLDVLQFLSGSVLGSLSKGHPEQP---AIA--------EAILKGYAILDLEALIVIGGDGSLDIIYDLAQ-----KGNWHIIAIPKTIDNDVPFTDLAVGFSTAVDIVTQALYDLTFTAASHER--IIIVQVMGRDAGHLTLHAGIAG----GADIILIPEITPCL---TSEIIRNCCYQLMNLRKSGRHFALIVISEGVHDQ------NNKKNKHIADYLAEEISETSQHLCDIKDPAFCDL-ISLDIRATTLGHLQRSGT--PLSFDRLLATVFGIRAVELIEQEIYDQVVIWRSGKVEHADLKPIISIIKECHQENRCP-------FPVDRDGFMVKTAKSLGIYLGED-------------------"/>
+        <sequence id="seq_sp_Q72H98_PFKA_THET2" spec="Sequence" taxon="sp_Q72H98_PFKA_THET2" totalcount="20" value="----------------------------------------------------------------------------MKRIGVFT-SGGDAPGMNAAIRAVVRQAHAL--GVEVIGIRRGYAGMIQGEM------VPLGVRD----------VANIIQRGGTILL-TARSQEFLT----------EEGRAKAYAKLQAAGIEGLVAIGGDGTFRGALCLVE-----EHGMPVVGVPGTIDNDLYGTDYTIGFDTAVNTALEAIDRIRDTAASHER--VFFIEVMGRHAGFIALDVGLAG----GAEVIAVPEEP-------VDPK-AVAEVLEASQRRGKKSSIVVVAEGAYPGGAA--------------------GLLAAIR-EHLQ--------VEARVTVLGHIQRGGS--PTAKDRILASRLGAAAVEALVGGASGVMVGEV-------EGEVDLTPLKEAVE-RRK-----------DINRALLRLSQVLAL------------------------"/>
+        <sequence id="seq_sp_Q8NR14_PFKA_CORGL" spec="Sequence" taxon="sp_Q8NR14_PFKA_CORGL" totalcount="20" value="-----------------------------------------------------------------------MED---MRIATLT-SGGDCPGLNAVIRGIVRTASNEF-GSTVVGYQDGWEGLLGDRR-----VQLYDDED----------IDRILLRGGTILG-TGRLHPDKF---KAG-------IDQIKANLEDAGIDALIPIGGEGTLKGAKWLSD-----NG-IPVVGVPKTIDNDVNGTDFTFGFDTAVAVATDAVDRLHTTAESHNR--VMIVEVMGRHVGWIALHAGMAG----GAHYTVIPEVP--------FDIAEICKAMERRFQMGEKYGIIVVAEGALPREG---TMELREGHIDQFGHKTFTGIGQQIADE----IHVR-LGHDVRTTVLGHIQRGGT--PTAFDRVLATRYGVRAARACHEGSFDKVVALK-------GESIEMITFEEAVGTLKE----------VPFERWVTAQA-----MFG---------------------"/>
+        <sequence id="seq_tr_A0A081UD84_A0A081UD84_BACFG" spec="Sequence" taxon="tr_A0A081UD84_A0A081UD84_BACFG" totalcount="20" value="-----------------------------------------------------------------------MK------IGILT-SGGDCPGINATIRGVCKTAINHY-GMEVVGIHSGFQGLLTKEV------ESFTEKS----------LSGLLNLGGTMLG-TSREKPFR----KQGIISDVDKPALIQRNIAELGLDCVVCIGGNGTQKTAAKFAA-----MG-INIVSVPKTIDNDIWGTDISFGFDSAVSIATDAIDRLHSTASSHKR--VMVIEVMGHKAGWIALYSGMAG----GGDVILVPEIP--------YNIKNIGDTILNRLKKGKPYSIVVVAEGIQT---------DGRKRAAEY--------IAQEIEY-------E-TGIETRETVLGYIQRGGS--PTPFDRNLSTRMGGHATELIANGQFGRMIALK-------GDEISSVALEEVAGKLKL----------VTEEHDLVVQGRRMGICFG---------------------"/>
+        <sequence id="seq_tr_A0A0H2Z4Y4_A0A0H2Z4Y4_ECOK1" spec="Sequence" taxon="tr_A0A0H2Z4Y4_A0A0H2Z4Y4_ECOK1" totalcount="20" value="-------------------------------------------------------MCKKTSGNRFHFAFQSSEVVMIKKIGVLT-SGGDAPGMNAAIRGVVRSALTE--GLEVMGIYDGYLGLYEDRM------VQLDRYS----------VSDMINRGGTFLG-SARFPEFRD----------ENIRAVAIENLKKRGIDALVVIGGDGSYMGAMRLT------EMGFPCIGLPGTIDNDIKGTDYTIGFFTALSTVVEAIDRLRDTSSSHQR--ISVVEVMGRYCGDLTLAAAIAG----GCEFVVVPEVE-------FSRE-DLVNEIKAGIAKGKKHAIVAITEH--MCDVD--------------------ELAHFIEKETG---------RETRATVLGHIQRGGS--PVPYDRILASRMGAYAIDLLLAGYGGRCVGIQ-------NEQLVHHDIIDAIENMKR-----------PFKGDWLDCAKKLY-------------------------"/>
+        <sequence id="seq_tr_A0A0K6BYK5_A0A0K6BYK5_BACFG" spec="Sequence" taxon="tr_A0A0K6BYK5_A0A0K6BYK5_BACFG" totalcount="20" value="-------------------------------------------------------------------------MGTVKCVGILT-SGGDAPGMNAAIRAVTRAAIYN--GLQVKGIYRGYRGLVTGEI------KEFKSQN----------VSNIIQLGGTILK-TARCKEFTT----------PEGRKMAYDNMVKEGIDALVVIGGDGSLTGARIFAQ-----EYDIPCIGLPGTIDNDLYGTDTTIGYDTALNTILDAVDKIRDTATSHER--LFFVEVMGRDAGFLALNGAIAS----GAEAAIIPEFS-------TEVD-QLEEFIKSGFRKSKNSSIVLVAESELTGGAM--------------------HYAERVKNEYPQ--------YDVRVTILGHLQRGGS--PTAHDRILASRLGAAAIDAIMEDQRNVMIGIE-------HDEIVYVPFSKAIK-NDK-----------PVKRDLVNVLRELSI------------------------"/>
+        <sequence id="seq_tr_A0A2K2FEL3_A0A2K2FEL3_9CLOT" spec="Sequence" taxon="tr_A0A2K2FEL3_A0A2K2FEL3_9CLOT" totalcount="20" value="-------------------------------------------------------------------------MAELKGACIFGQSGGPTSVINASAAGVIQEALKQDCITHVYGAAHGIRGILEENF------YDMSKEDP-------YELDLLKTTPSSALG-SVRYKLKNAD-------EDETDYKRLLEVFKKYNIRYFFYNGGNDSMDTCNKVSKYMQKVGYECRVMGVPKTIDNDLWGTDHCPGYGSAAKYVATSTMEVYHDARVYDKGMIIVLEIMGRNAGWLTAASAIAAYKGAGPDLIYLPEVP--------FDMDKFIEDASALYKKNGN-VIVAVSEGIKDKNGK--YISEYGSDLAKTKDAFGHAQLGGLASTLANILKEK-TGAKVRAIEFSLLQRCAAHLGSLTDVNEAYLAGQMAVRYAVEGKTDYMVAFERAEGPEYKCNIKLVNLTDVANTEKKVPLEWIKKDGTGLTEDFIKYALPLIQGESRPPMEDGVPRFAKLKKVLATK"/>
+        <sequence id="seq_tr_A0A6M3ZEX6_A0A6M3ZEX6_BACSU" spec="Sequence" taxon="tr_A0A6M3ZEX6_A0A6M3ZEX6_BACSU" totalcount="20" value="----------------------------------------------------------------------------MKRIGVLT-SGGDSPGMNAAVRAVVRKAIYH--DVEVYGIYNGYAGLISGKI------EKLELGS----------VGDIIHRGGTKLY-TARCPEFKT----------VEGREKGIANLKKLGIEGLVVIGGDGSYMGAKKLT------EHGFPCVGVPGTIDNDIPGTDFTIGFDTALNTVIDAIDKIRDTATSHER--TYVIEVMGRHAGDIALWAGLAG----GAESILIPEAD-------YDMH-EIIARLKRGHERGKKHSIIIVAEG--VGSGV--------------------EFGKRIEEETN---------LETRVSVLGHIQRGGS--PSAADRVLASRLGAYAVELLLEGKGGRCVGIQ-------NNKLVDHDIIEILE-TKH-----------TVEQNMYQLSKELSI------------------------"/>
+        <sequence id="seq_tr_A3DCA6_A3DCA6_ACET2" spec="Sequence" taxon="tr_A3DCA6_A3DCA6_ACET2" totalcount="20" value="-------------------------------------------------------------------------MSRLEGACIFGQSGGPTSVINASAAGVIQEALKQDCITAVYGAAHGIKGILEENF------FDMSKEDP-------YELELLKTTPSSALG-SVRYKLKDAD-------EDETDYKRLLEVFKKYNIRYFFYNGGNDSMDTCNKVSKYMQKVGYECRVMGVPKTIDNDLWGTDHCPGYGSAAKYIATSIMEVYHDARVYDTGMITILEIMGRNAGWLTAAAALASYKGNGPDLIYLPELS--------FDIDKFVEDVTRIYKENGK-VIVAVSEGIKDKNGK--YISEYGSDLAKTKDSFGHAQLGGLASTLANIVKEK-TGAKVRGIEFSLLQRCAAHVASLTDVNEAYLAGQAAVQYAVEGKTDYMVAFERAEGPEYKCNIKLLNLSEVANTEKKVPLEWIKPDGAGLTEDFIKYALPLIQGESRPPIEDGLPRFAKLKKVLARK"/>
+        <sequence id="seq_tr_A3DEW4_A3DEW4_ACET2" spec="Sequence" taxon="tr_A3DEW4_A3DEW4_ACET2" totalcount="20" value="-------------------------------------------------------------------------MSSVRTIGVLT-SGGDAPGMNAAIRSVVRTGLYY--GFKVLGIRKGFNGLINGDI------EELTARS----------VGDIIHRGGTILQ-TARSPQFKT----------EEGLKKAMSMAKVFGIDALVVIGGDGSYRGARDIS------KLGLNVIGIPGTIDNDIGCTDYTIGFDTAMNTVQDAIDKIRDTAYSHER--CSVLEVMGRHAGYIAVNVSISG----GAEAVVLPEKP-------FDMDTDVIKPIIEGRNRGKKHYLVIVAEGG-EGKAI--------------------EIAKEITEKTG---------IEARATILGHIQRGGS--PTVYDRVMASQMGAKAVEVLMENKRNRVIVFK-------DNQIGDMDLEEALQ-VKK-----------TISEDLIQLSKILAL------------------------"/>
+        <sequence id="seq_tr_B5YEZ4_B5YEZ4_DICT6" spec="Sequence" taxon="tr_B5YEZ4_B5YEZ4_DICT6" totalcount="20" value="---------------------------------------------------------------------------MIKRIGVLT-SGGDAPGMNSAIRAIVRFGISK--GIEVIGIERGYQGLIEEEF------RVLHKDD----------VSEIVQRGGTILR-TARSEEFKE----------EEGQRRAIENLKKHGIDGLIVIGGEGSLKGAYDLF------KKGVNVVGIPGSIDNDIWGTDFSIGFDTACNNVIDAINKIRDTAAAHER--TFVIEVMGRECGFIAFTSGLVS----GADIILIPEVP-------IDFP-YITEKLKERQRKNKKHNIIVVAEG--VGSAY--------------------FIGKQIEDRLG---------ISTRIVVLGHIQRGGS--PSVFDRSIATFMGVDAVKRLLAGESGVMIGWQ-------NNSPVSVPLEEVVK-NKK-----------RVSPELYWEVESLW-------------------------"/>
+        <sequence id="seq_tr_I3VV24_I3VV24_THESW" spec="Sequence" taxon="tr_I3VV24_I3VV24_THESW" totalcount="20" value="----------------------------------------------------------------------------MRTIGVLT-SGGDAPGMNAAIRAVVRCGIYN--GLTVKGIMRGYQGLIDDEI------EDMTLSS----------VGDIIQRGGTILR-TARSAEFKT----------KEGRAKAAEVLKKHNIEGLVVIGGDGSFRGAQLLSN-----EHGVNTIGIPGTIDNDIPCTDYTIGFDTACNTAIDAINKIRDTATSHER--ANIIEVMGRNAGYIALYAGLAG----GAEIIIIPEVK-------FDID-EVCEKISYGIKRGKLHHIIVLAEG--VMSGL--------------------ELSKMIQERLPK--------LDLRHTTLGHIQRGGA--PTVMDRVIASQMGSRAVELLLENKSQRIISIR-------NNQIVDDDIDTALA-MKK-----------EFNLKLYELSKILSI------------------------"/>
+    </data>
+
+    <map name="Uniform" >beast.base.inference.distribution.Uniform</map>
+
+    <map name="Exponential" >beast.base.inference.distribution.Exponential</map>
+
+    <map name="LogNormal" >beast.base.inference.distribution.LogNormalDistributionModel</map>
+
+    <map name="Normal" >beast.base.inference.distribution.Normal</map>
+
+    <map name="Beta" >beast.base.inference.distribution.Beta</map>
+
+    <map name="Gamma" >beast.base.inference.distribution.Gamma</map>
+
+    <map name="LaplaceDistribution" >beast.base.inference.distribution.LaplaceDistribution</map>
+
+    <map name="prior" >beast.base.inference.distribution.Prior</map>
+
+    <map name="InverseGamma" >beast.base.inference.distribution.InverseGamma</map>
+
+    <map name="OneOnX" >beast.base.inference.distribution.OneOnX</map>
+
+    <run id="mcmc" spec="MCMC" chainLength="1000000">
+        <state id="state" spec="State" storeEvery="5000">
+            <tree id="Tree.t:output-for-Bayes" spec="beast.base.evolution.tree.Tree" name="stateNode">
+                <taxonset id="TaxonSet.output-for-Bayes" spec="TaxonSet">
+                    <alignment idref="output-for-Bayes"/>
+                </taxonset>
+            </tree>
+            <parameter id="mutationRate.s:output-for-Bayes" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+            <parameter id="gammaShape.s:output-for-Bayes" spec="parameter.RealParameter" lower="0.1" name="stateNode">1.0</parameter>
+            <parameter id="birthRate.t:output-for-Bayes" spec="parameter.RealParameter" lower="0.0" name="stateNode">1.0</parameter>
+        </state>
+        <init id="RandomTree.t:output-for-Bayes" spec="RandomTree" estimate="false" initial="@Tree.t:output-for-Bayes" taxa="@output-for-Bayes">
+            <populationModel id="ConstantPopulation0.t:output-for-Bayes" spec="ConstantPopulation">
+                <parameter id="randomPopSize.t:output-for-Bayes" spec="parameter.RealParameter" name="popSize">1.0</parameter>
+            </populationModel>
+        </init>
+        <distribution id="posterior" spec="CompoundDistribution">
+            <distribution id="prior" spec="CompoundDistribution">
+                <distribution id="YuleModel.t:output-for-Bayes" spec="beast.base.evolution.speciation.YuleModel" birthDiffRate="@birthRate.t:output-for-Bayes" tree="@Tree.t:output-for-Bayes"/>
+                <prior id="YuleBirthRatePrior.t:output-for-Bayes" name="distribution" x="@birthRate.t:output-for-Bayes">
+                    <Gamma id="Gamma.1" name="distr">
+                        <parameter id="RealParameter.7" spec="parameter.RealParameter" estimate="false" name="alpha">2.0</parameter>
+                        <parameter id="RealParameter.8" spec="parameter.RealParameter" estimate="false" name="beta">2.0</parameter>
+                    </Gamma>
+                </prior>
+                <prior id="GammaShapePrior.s:output-for-Bayes" name="distribution" x="@gammaShape.s:output-for-Bayes">
+                    <Exponential id="Exponential.1" name="distr">
+                        <parameter id="RealParameter.1" spec="parameter.RealParameter" estimate="false" name="mean">1.0</parameter>
+                    </Exponential>
+                </prior>
+            </distribution>
+            <distribution id="likelihood" spec="CompoundDistribution" useThreads="true">
+                <distribution id="treeLikelihood.output-for-Bayes" spec="ThreadedTreeLikelihood" data="@output-for-Bayes" tree="@Tree.t:output-for-Bayes">
+                    <siteModel id="SiteModel.s:output-for-Bayes" spec="SiteModel" gammaCategoryCount="3" mutationRate="@mutationRate.s:output-for-Bayes" shape="@gammaShape.s:output-for-Bayes">
+                        <parameter id="proportionInvariant.s:output-for-Bayes" spec="parameter.RealParameter" estimate="false" lower="0.0" name="proportionInvariant" upper="1.0">0.0</parameter>
+                        <substModel id="Blosum62.s:output-for-Bayes" spec="Blosum62"/>
+                    </siteModel>
+                    <branchRateModel id="StrictClock.c:output-for-Bayes" spec="beast.base.evolution.branchratemodel.StrictClockModel">
+                        <parameter id="clockRate.c:output-for-Bayes" spec="parameter.RealParameter" estimate="false" lower="0.0" name="clock.rate">1.0</parameter>
+                    </branchRateModel>
+                </distribution>
+            </distribution>
+        </distribution>
+        <operator id="FixMeanMutationRatesOperator" spec="operator.kernel.BactrianDeltaExchangeOperator" delta="0.75" weight="2.0">
+            <parameter idref="mutationRate.s:output-for-Bayes"/>
+            <weightvector id="weightparameter" spec="parameter.IntegerParameter" estimate="false" lower="0" upper="0">521</weightvector>
+        </operator>
+        <operator id="gammaShapeScaler.s:output-for-Bayes" spec="AdaptableOperatorSampler" weight="0.05">
+            <parameter idref="gammaShape.s:output-for-Bayes"/>
+            <operator id="AVMNOperator.output-for-Bayes" spec="kernel.AdaptableVarianceMultivariateNormalOperator" allowNonsense="true" beta="0.05" burnin="400" initial="800" weight="0.1">
+                <transformations id="AVMNSumTransform.output-for-Bayes" spec="operator.kernel.Transform$LogConstrainedSumTransform"/>
+                <transformations id="AVMNLogTransform.output-for-Bayes" spec="operator.kernel.Transform$LogTransform">
+                    <f idref="gammaShape.s:output-for-Bayes"/>
+                </transformations>
+                <transformations id="AVMNNoTransform.output-for-Bayes" spec="operator.kernel.Transform$NoTransform">
+                    <f idref="Tree.t:output-for-Bayes"/>
+                </transformations>
+            </operator>
+            <operator id="gammaShapeScalerX.s:output-for-Bayes" spec="kernel.BactrianScaleOperator" parameter="@gammaShape.s:output-for-Bayes" scaleFactor="0.5" upper="10.0" weight="0.1"/>
+        </operator>
+        <operator id="YuleBirthRateScaler.t:output-for-Bayes" spec="kernel.BactrianScaleOperator" parameter="@birthRate.t:output-for-Bayes" upper="10.0" weight="3.0"/>
+        <operator id="YuleModelTreeRootScaler.t:output-for-Bayes" spec="kernel.BactrianScaleOperator" rootOnly="true" scaleFactor="0.5" tree="@Tree.t:output-for-Bayes" upper="10.0" weight="3.0"/>
+        <operator id="YuleModelUniformOperator.t:output-for-Bayes" spec="kernel.BactrianNodeOperator" tree="@Tree.t:output-for-Bayes" weight="30.0"/>
+        <operator id="YuleModelSubtreeSlide.t:output-for-Bayes" spec="kernel.BactrianSubtreeSlide" tree="@Tree.t:output-for-Bayes" weight="15.0"/>
+        <operator id="YuleModelNarrow.t:output-for-Bayes" spec="Exchange" tree="@Tree.t:output-for-Bayes" weight="15.0"/>
+        <operator id="YuleModelWide.t:output-for-Bayes" spec="Exchange" isNarrow="false" tree="@Tree.t:output-for-Bayes" weight="3.0"/>
+        <operator id="YuleModelWilsonBalding.t:output-for-Bayes" spec="WilsonBalding" tree="@Tree.t:output-for-Bayes" weight="3.0"/>
+        <operator id="YuleModelBICEPSEpochTop.t:output-for-Bayes" spec="EpochFlexOperator" scaleFactor="0.1" tree="@Tree.t:output-for-Bayes" weight="2.0"/>
+        <operator id="YuleModelBICEPSEpochAll.t:output-for-Bayes" spec="EpochFlexOperator" fromOldestTipOnly="false" scaleFactor="0.1" tree="@Tree.t:output-for-Bayes" weight="2.0"/>
+        <operator id="YuleModelBICEPSTreeFlex.t:output-for-Bayes" spec="TreeStretchOperator" scaleFactor="0.01" tree="@Tree.t:output-for-Bayes" weight="2.0"/>
+        <logger id="tracelog" spec="Logger" fileName="$(filebase).log" logEvery="200" model="@posterior" sanitiseHeaders="true" sort="smart">
+            <log idref="posterior"/>
+            <log idref="likelihood"/>
+            <log idref="prior"/>
+            <log idref="treeLikelihood.output-for-Bayes"/>
+            <log id="TreeHeight.t:output-for-Bayes" spec="beast.base.evolution.tree.TreeStatLogger" tree="@Tree.t:output-for-Bayes"/>
+            <log idref="mutationRate.s:output-for-Bayes"/>
+            <log idref="gammaShape.s:output-for-Bayes"/>
+            <log idref="YuleModel.t:output-for-Bayes"/>
+            <log idref="birthRate.t:output-for-Bayes"/>
+        </logger>
+        <logger id="screenlog" spec="Logger" logEvery="1000">
+            <log idref="posterior"/>
+            <log idref="likelihood"/>
+            <log idref="prior"/>
+        </logger>
+        <logger id="treelog.t:output-for-Bayes" spec="Logger" fileName="test_PPi-BEAST.trees" logEvery="1000" mode="tree">
+            <log id="TreeWithMetaDataLogger.t:output-for-Bayes" spec="beast.base.evolution.TreeWithMetaDataLogger" tree="@Tree.t:output-for-Bayes"/>
+        </logger>
+        <operatorschedule id="OperatorSchedule" spec="OperatorSchedule"/>
+    </run>
+
+</beast>

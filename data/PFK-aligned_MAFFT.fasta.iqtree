@@ -1,0 +1,194 @@
+IQ-TREE 2.4.0 built Feb 12 2025
+
+Input file name: PFK-aligned_MAFFT.fasta
+Type of analysis: tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 667238
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 16 sequences with 608 amino-acid sites
+Number of constant sites: 200 (= 32.8947% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 200 (= 32.8947% of all sites)
+Number of parsimony informative sites: 294
+Number of distinct site patterns: 499
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: LG+F+G4
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.0890
+  pi(R) = 0.0540
+  pi(N) = 0.0347
+  pi(D) = 0.0588
+  pi(C) = 0.0121
+  pi(Q) = 0.0262
+  pi(E) = 0.0664
+  pi(G) = 0.1111
+  pi(H) = 0.0229
+  pi(I) = 0.0892
+  pi(L) = 0.0800
+  pi(K) = 0.0580
+  pi(M) = 0.0241
+  pi(F) = 0.0298
+  pi(P) = 0.0312
+  pi(S) = 0.0492
+  pi(T) = 0.0536
+  pi(W) = 0.0054
+  pi(Y) = 0.0294
+  pi(V) = 0.0752
+
+Model of rate heterogeneity: Gamma with 4 categories
+Gamma shape alpha: 1.3499
+
+ Category  Relative_rate  Proportion
+  1         0.2012         0.2500
+  2         0.5615         0.2500
+  3         1.0402         0.2500
+  4         2.1971         0.2500
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -10536.2909 (s.e. 350.1985)
+Unconstrained log-likelihood (without tree): -3683.2460
+Number of free parameters (#branches + #model parameters): 49
+Akaike information criterion (AIC) score: 21170.5818
+Corrected Akaike information criterion (AICc) score: 21179.3631
+Bayesian information criterion (BIC) score: 21386.6803
+
+Total tree length (sum of branch lengths): 15.7871
+Sum of internal branch lengths: 3.8390 (24.3175% of tree length)
+
+NOTE: Tree is UNROOTED although outgroup taxon 'sp|Q8NR14|PFKA_CORGL' is drawn at root
+Numbers in parentheses are SH-aLRT support (%) / ultrafast bootstrap support (%)
+
++---------sp|Q8NR14|PFKA_CORGL
+|
+|      +---sp|P72830|PFKA1_SYNY3
+|  +---| (99.7/94)
+|  |   +------------sp|Q55988|PFKA2_SYNY3
++--| (38.4/39)
+|  |  +------tr|A0A081UD84|A0A081UD84_BACFG
+|  +--| (94.5/87)
+|     +-----sp|E0RTD9|PFKA_SPITD
+|
+|              +--------------------------------------------------sp|P06999|PFKB_ECOLI
+|           +--| (0/35)
+|           |  +-----sp|Q72H98|PFKA_THET2
+|        +--| (93.1/70)
+|        |  +-------tr|A0A0K6BYK5|A0A0K6BYK5_BACFG
+|     +--| (90.8/76)
+|     |  |     +--------tr|A0A0H2Z4Y4|A0A0H2Z4Y4_ECOK1
+|     |  |  +--| (96.4/97)
+|     |  |  |  +--tr|A0A6M3ZEX6|A0A6M3ZEX6_BACSU
+|     |  +--| (82.3/79)
+|     |     |  +---tr|I3VV24|I3VV24_THESW
+|     |     +--| (98/99)
+|     |        +----tr|A3DEW4|A3DEW4_ACET2
+|  +--| (98.6/85)
+|  |  +-----tr|B5YEZ4|B5YEZ4_DICT6
++--| (32.7/48)
+   |     +--------------------sp|O51669|PFKA_BORBU
+   +-----| (94.9/75)
+         |                      +--tr|A3DCA6|A3DCA6_ACET2
+         +----------------------| (100/100)
+                                +--tr|A0A2K2FEL3|A0A2K2FEL3_9CLOT
+
+Tree in newick format:
+
+(sp|Q8NR14|PFKA_CORGL:0.8002161564,((sp|P72830|PFKA1_SYNY3:0.3400394498,sp|Q55988|PFKA2_SYNY3:0.9753404419)99.7/94:0.3516517223,(tr|A0A081UD84|A0A081UD84_BACFG:0.5526070269,sp|E0RTD9|PFKA_SPITD:0.4617432048)94.5/87:0.1879817450)38.4/39:0.0774566556,(((((sp|P06999|PFKB_ECOLI:3.8629316471,sp|Q72H98|PFKA_THET2:0.4805272667)0/35:0.0032323144,tr|A0A0K6BYK5|A0A0K6BYK5_BACFG:0.6327065111)93.1/70:0.1352492709,((tr|A0A0H2Z4Y4|A0A0H2Z4Y4_ECOK1:0.6861134613,tr|A0A6M3ZEX6|A0A6M3ZEX6_BACSU:0.2324259901)96.4/97:0.1271575652,(tr|I3VV24|I3VV24_THESW:0.3271081151,tr|A3DEW4|A3DEW4_ACET2:0.4251163584)98/99:0.1271660677)82.3/79:0.1000223702)90.8/76:0.1302254471,tr|B5YEZ4|B5YEZ4_DICT6:0.4589544396)98.6/85:0.2667092932,(sp|O51669|PFKA_BORBU:1.5957817558,(tr|A3DCA6|A3DCA6_ACET2:0.0592737274,tr|A0A2K2FEL3|A0A2K2FEL3_9CLOT:0.0571954699)100/100:1.7698141850)94.9/75:0.4642638045)32.7/48:0.0980916302);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -10536.291407
+Robinson-Foulds distance between ML tree and consensus tree: 2
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++---------sp|Q8NR14|PFKA_CORGL
+|
+|      +---sp|P72830|PFKA1_SYNY3
+|  +---| (94)
+|  |   +------------sp|Q55988|PFKA2_SYNY3
++--| (39)
+|  |  +------tr|A0A081UD84|A0A081UD84_BACFG
+|  +--| (87)
+|     +-----sp|E0RTD9|PFKA_SPITD
+|
+|           +--------------------------------------------------sp|P06999|PFKB_ECOLI
+|        +--| (70)
+|        |  |  +-------tr|A0A0K6BYK5|A0A0K6BYK5_BACFG
+|        |  +--| (43)
+|        |     +-----sp|Q72H98|PFKA_THET2
+|     +--| (76)
+|     |  |     +--------tr|A0A0H2Z4Y4|A0A0H2Z4Y4_ECOK1
+|     |  |  +--| (97)
+|     |  |  |  +--tr|A0A6M3ZEX6|A0A6M3ZEX6_BACSU
+|     |  +--| (79)
+|     |     |  +---tr|I3VV24|I3VV24_THESW
+|     |     +--| (99)
+|     |        +----tr|A3DEW4|A3DEW4_ACET2
+|  +--| (85)
+|  |  +-----tr|B5YEZ4|B5YEZ4_DICT6
++--| (48)
+   |     +--------------------sp|O51669|PFKA_BORBU
+   +-----| (75)
+         |                      +--tr|A3DCA6|A3DCA6_ACET2
+         +----------------------| (100)
+                                +--tr|A0A2K2FEL3|A0A2K2FEL3_9CLOT
+
+
+Consensus tree in newick format: 
+
+(sp|Q8NR14|PFKA_CORGL:0.7998256700,((sp|P72830|PFKA1_SYNY3:0.3399456027,sp|Q55988|PFKA2_SYNY3:0.9749496661)94:0.3515219386,(tr|A0A081UD84|A0A081UD84_BACFG:0.5524368896,sp|E0RTD9|PFKA_SPITD:0.4615278846)87:0.1879338132)39:0.0775109655,((((sp|P06999|PFKB_ECOLI:3.8613604346,(tr|A0A0K6BYK5|A0A0K6BYK5_BACFG:0.6324362776,sp|Q72H98|PFKA_THET2:0.4827390052)43:0.0000025702)70:0.1353271447,((tr|A0A0H2Z4Y4|A0A0H2Z4Y4_ECOK1:0.6857598344,tr|A0A6M3ZEX6|A0A6M3ZEX6_BACSU:0.2322846290)97:0.1271330700,(tr|I3VV24|I3VV24_THESW:0.3269480901,tr|A3DEW4|A3DEW4_ACET2:0.4249061621)99:0.1270879322)79:0.0999927598)76:0.1301888279,tr|B5YEZ4|B5YEZ4_DICT6:0.4587178509)85:0.2665318054,(sp|O51669|PFKA_BORBU:1.5946174612,(tr|A3DCA6|A3DCA6_ACET2:0.0590293403,tr|A0A2K2FEL3|A0A2K2FEL3_9CLOT:0.0573709415)100:1.7687527827)75:0.4646061484)48:0.0980690805);
+
+ALISIM COMMAND
+--------------
+To simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis, you can use the following command:
+
+--alisim simulated_MSA -t PFK-aligned_MAFFT.fasta.treefile -m "LG+F+G4{1.34986}" --length 608
+
+To mimic the alignment used to produce this analysis, i.e. simulate an alignment of the same length as the original alignment, using the tree and model parameters estimated from this analysis *and* copying the same gap positions as the original alignment, you can use the following command:
+
+iqtree -s PFK-aligned_MAFFT.fasta --alisim mimicked_MSA
+
+To simulate any number of alignments in either of the two commandlines above, use the --num-alignments options, for example mimic 100 alignments you would use the command line:
+
+iqtree -s PFK-aligned_MAFFT.fasta --alisim mimicked_MSA --num-alignments 100
+
+For more information on using AliSim, please visit: www.iqtree.org/doc/AliSim
+
+TIME STAMP
+----------
+
+Date and time: Sun Apr 27 17:41:03 2025
+Total CPU time used: 24.172728 seconds (0h:0m:24s)
+Total wall-clock time used: 24.33360505 seconds (0h:0m:24s)
+
